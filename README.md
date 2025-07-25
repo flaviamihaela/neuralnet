@@ -2,12 +2,10 @@
 
 ## Overview
 
-This repository contains foundational implementations of neural network models in Python, focusing on educational clarity and hands-on experimentation. The included notebooks demonstrate:
-- A simple Perceptron for binary classification
+This repository contains foundational implementations of neural network models in Pythonn. The included notebooks demonstrate:
+- A Perceptron for binary classification
 - A single-layer neural network for multi-class tasks
 - A multi-layer perceptron (MLP) for more complex classification (e.g., MNIST)
-
-Each notebook is self-contained and designed for step-by-step exploration of neural network concepts, training, and evaluation.
 
 ## Key Features
 
@@ -48,8 +46,6 @@ All models are implemented as Jupyter notebooks. To run them:
 4. Run the cells sequentially. For the neural network notebooks, ensure you have the MNIST CSV files (or adapt the data loading code).
 
 ## Usage (Parameter Tuning)
-
-Each model exposes parameters you can tune for experimentation:
 
 - **Perceptron**
   - `lr`: Learning rate (default: 0.01)
